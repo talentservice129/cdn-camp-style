@@ -1,0 +1,20 @@
+{
+    "gamesCardImages":[
+        {
+            "bg": "/assets/images/games/gta/gta-wallpaper.jpg",
+            "logo": "/assets/images/games/gta/gta-logo.png"
+        },
+        {
+            "bg": "/assets/images/games/mc/mc-wallpaper.jpg",
+            "logo": "/assets/images/games/mc/mc-logo.png"
+        },
+        {
+            "bg": "/assets/images/games/redm/redm-wallpaper.jpg",
+            "logo": "/assets/images/games/redm/redm-logo.png"
+        },
+        {
+            "bg": "/assets/images/games/rust/rust-wallpaper.jpg",
+            "logo": "/assets/images/games/rust/rust-logo.png"
+        }
+    ]
+}

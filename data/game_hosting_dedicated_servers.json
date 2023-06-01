@@ -1,0 +1,807 @@
+{
+    "servers": [
+        {
+            "name": "Intel Atom D510",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 2,
+                    "cpuSpec": 1.66,
+                    "ramCap": 4,
+                    "ramModel": "DDR2",
+                    "hardDesc": "64GB SSD+500GB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 29
+                }
+            ]
+        },
+        {
+            "name": "Intel Atom D525",
+            "types": [
+                {
+                    "type": "custom",
+                    "cpuCore": 2,
+                    "cpuSpec": 1.8,
+                    "ramCap": 8,
+                    "ramModel": "DDR3",
+                    "hardDesc": "Configurable",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 48,
+                    "price": 33
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 2,
+                    "cpuSpec": 1.8,
+                    "ramCap": 8,
+                    "ramModel": "DDR3",
+                    "hardDesc": "64GB SSD+1TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 33
+                }
+            ]
+        },
+        {
+            "name": "HDD Storage",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.2,
+                    "ramCap": 16,
+                    "ramModel": "DDR3",
+                    "hardDesc": "4x8TB HD",
+                    "hardType": ["hdd"],
+                    "setupTime": 10,
+                    "price": 99
+                }
+            ]
+        },
+        {
+            "name": "Intel Core i7 6700K",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 4,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "512GB SSD+2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 69
+                }
+            ]
+        },
+        {
+            "name": "Intel Core i7 7700K",
+            "types": [
+                {
+                    "type": "custom",
+                    "cpuCore": 4,
+                    "cpuSpec": 4.2,
+                    "ramCap": 0,
+                    "ramModel": "",
+                    "hardDesc": "Configurable",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 48,
+                    "price": 59
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 4.2,
+                    "ramCap": 32,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x256GB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 75
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 4.2,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x512GB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 84
+                }
+            ]
+        },
+        {
+            "name": "Intel Special",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": null,
+                    "ramCap": 32,
+                    "ramModel": "DDR3",
+                    "hardDesc": "1TB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 55
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon E3 1230",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.2,
+                    "ramCap": 32,
+                    "ramModel": "DDR3",
+                    "hardDesc": "64GB SSD+2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 46
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon E3 1230 V3",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.3,
+                    "ramCap": 32,
+                    "ramModel": "DDR3",
+                    "hardDesc": "256GB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 49
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon E3 1240 V5",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.5,
+                    "ramCap": 16,
+                    "ramModel": "DDR4",
+                    "hardDesc": "256GB SSD+2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 59
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.5,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "512GB SSD+2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 79
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon E3 1240 V6",
+            "types": [
+                {
+                    "type": "custom",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.7,
+                    "ramCap": null,
+                    "ramModel": "",
+                    "hardDesc": "Configurable",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 48,
+                    "price": 59
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.7,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x2TB HD",
+                    "hardType": ["hdd"],
+                    "setupTime": 10,
+                    "price": 84
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.7,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "1TB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 84
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon E3 1245 V2",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.3,
+                    "ramCap": 32,
+                    "ramModel": "DDR3",
+                    "hardDesc": "2TB HD",
+                    "hardType": ["hdd"],
+                    "setupTime": 10,
+                    "price": 47
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.4,
+                    "ramCap": 32,
+                    "ramModel": "DDR3",
+                    "hardDesc": "256GB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 47
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon E3 1270 V3",
+            "types": [
+                {
+                    "type": "custom",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.5,
+                    "ramCap": null,
+                    "ramModel": "",
+                    "hardDesc": "Configurable",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 48,
+                    "price": 45
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.5,
+                    "ramCap": 8,
+                    "ramModel": "DDR3",
+                    "hardDesc": "128GB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 45
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.5,
+                    "ramCap": 16,
+                    "ramModel": "DDR3",
+                    "hardDesc": "64GB SSD+1TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 48
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 4,
+                    "cpuSpec": 3.5,
+                    "ramCap": 32,
+                    "ramModel": "DDR3",
+                    "hardDesc": "512GB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 55
+                }
+            ]
+        },
+        {
+            "name": "AMD Ryzen 5600X",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 6,
+                    "cpuSpec": 3.7,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "512GB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 99
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 6,
+                    "cpuSpec": 3.7,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "1TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 129
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon E5 1650 V3",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 6,
+                    "cpuSpec": 3.5,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x256GB SSD+2x2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 89
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 6,
+                    "cpuSpec": 3.5,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x1TB SSD+2x2TB HD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 99
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon E5 1650 V4",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 6,
+                    "cpuSpec": 3.6,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "1TB SSD+4TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 109
+                }
+            ]
+        },
+        {
+            "name": "AMD Ryzen 3700X",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.6,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x512GB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 109
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.6,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x1TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 139
+                }
+            ]
+        },
+        {
+            "name": "AMD Ryzen 5800X",
+            "types": [
+                {
+                    "type": "custom",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.8,
+                    "ramCap": null,
+                    "ramModel": "",
+                    "hardDesc": "Configurable",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 48,
+                    "price": 99
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.8,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "512GB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 119
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.8,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "1TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 149
+                }
+            ]
+        },
+        {
+            "name": "AMD Ryzen 5800X3D",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.4,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x1TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 169
+                }
+            ]
+        },
+        {
+            "name": "Dual Xeon E5620",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 2.4,
+                    "ramCap": 64,
+                    "ramModel": "DDR3",
+                    "hardDesc": "4x2TB HD",
+                    "hardType": ["hdd"],
+                    "setupTime": 10,
+                    "price": 84
+                }
+            ]
+        },
+        {
+            "name": "Intel Core i7 9700K",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.6,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "512GB NVMe SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 99
+                }
+            ]
+        },
+        {
+            "name": "Intel Core i9 9900K",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.6,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2TB NVMe+2x2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 169
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon D 1540",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 2,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x512GB SSD+2x2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 99
+                }
+            ]
+        },
+        {
+            "name": "nVidia Quadro RTX 4000",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 8,
+                    "cpuSpec": 3.8,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x1TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 199
+                }
+            ]
+        },
+        {
+            "name": "Intel Core i9 10900K",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 10,
+                    "cpuSpec": 3.7,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "1TB NVMe+1TB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 159
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 10,
+                    "cpuSpec": 3.7,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2TB NVMe+2TB SSD",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 229
+                }
+            ]
+        },
+        {
+            "name": "Intel Xeon W 2155",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 10,
+                    "cpuSpec": 3.3,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2TB NVMe+2x2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 239
+                }
+            ]
+        },
+        {
+            "name": "AMD Ryzen 3900X",
+            "types": [
+                {
+                    "type": "custom",
+                    "cpuCore": 12,
+                    "cpuSpec": 3.8,
+                    "ramCap": null,
+                    "ramModel": "",
+                    "hardDesc": "Configurable",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 48,
+                    "price": 99
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 12,
+                    "cpuSpec": 3.8,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x1TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 139
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 12,
+                    "cpuSpec": 3.8,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x2TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 189
+                }
+            ]
+        },
+        {
+            "name": "AMD Ryzen 5900X",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 12,
+                    "cpuSpec": 3.7,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 199
+                }
+            ]
+        },
+        {
+            "name": "Dual Xeon E5 2603 V3",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 12,
+                    "cpuSpec": 1.6,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "4x2TB HD",
+                    "hardType": ["hdd"],
+                    "setupTime": 10,
+                    "price": 99
+                }
+            ]
+        },
+        {
+            "name": "AMD Opteron 6272",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 16,
+                    "cpuSpec": 2.1,
+                    "ramCap": 64,
+                    "ramModel": "DDR3",
+                    "hardDesc": "2x256GB SSD+2x2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 75
+                }
+            ]
+        },
+        {
+            "name": "AMD Ryzen 3950X",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 16,
+                    "cpuSpec": 3.5,
+                    "ramCap": 64,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x1TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 169
+                },
+                {
+                    "type": "rapid",
+                    "cpuCore": 16,
+                    "cpuSpec": 3.5,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x2TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 239
+                }
+            ]
+        },
+        {
+            "name": "AMD Ryzen 5950X",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 16,
+                    "cpuSpec": 3.4,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 269
+                }
+            ]
+        },
+        {
+            "name": "Dual Xeon Silver 4108",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 16,
+                    "cpuSpec": 1.8,
+                    "ramCap": 128,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2TB NVMe+2x2TB HD",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 10,
+                    "price": 149
+                }
+            ]
+        },
+        {
+            "name": "Dual Xeon Silver 4114",
+            "types": [
+                {
+                    "type": "custom",
+                    "cpuCore": 20,
+                    "cpuSpec": 2.2,
+                    "ramCap": null,
+                    "ramModel": "",
+                    "hardDesc": "Configurable",
+                    "hardType": ["ssd", "hdd"],
+                    "setupTime": 48,
+                    "price": 259
+                }
+            ]
+        },
+        {
+            "name": "Intel Special 256GB",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 20,
+                    "cpuSpec": 2,
+                    "ramCap": 256,
+                    "ramModel": "DDR3",
+                    "hardDesc": "2TB SSD+2TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 199
+                }
+            ]
+        },
+        {
+            "name": "AMD Threadripper 3990X",
+            "types": [
+                {
+                    "type": "rapid",
+                    "cpuCore": 64,
+                    "cpuSpec": 2.9,
+                    "ramCap": 256,
+                    "ramModel": "DDR4",
+                    "hardDesc": "2x2TB NVMe",
+                    "hardType": ["ssd"],
+                    "setupTime": 10,
+                    "price": 699
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "cores": ["2", "4", "6", "8", "10", "12", "16", "20", "64", "storage", "gpu"],
+        "coreTitles": {
+            "2": "Dual Core",
+            "4": "Quad Core",
+            "6": "6 Core",
+            "8": "8 Core",
+            "10": "10 Core",
+            "12": "12 Core",
+            "16": "16 Core",
+            "20": "20 Core",
+            "64": "64 Core",
+            "storage": "Storage",
+            "gpu": "GPU"
+        },
+        "cpu": {
+            "min": 1.6,
+            "max": 4.5
+        },
+        "ram": {
+            "min": 0,
+            "max": 1024
+        },
+        "price": {
+            "min": 0,
+            "max": 1000
+        },
+        "hard": ["ssd", "hdd"],
+        "type": ["custom", "rapid"],
+        "typeTitles": {
+            "custom": "Customizable", 
+            "rapid": "Rapid Deploy"
+        }
+    }
+}

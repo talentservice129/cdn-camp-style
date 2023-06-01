@@ -1,0 +1,18 @@
+<svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.5458 22.3309C27.6958 22.8268 17 24.8809 17 24.8809L5.87918 22.0476L1.55835 24.5268L9.98752 29.3434C10.8375 28.8476 12.325 28.8476 13.175 29.3434C14.0958 29.8393 14.0958 30.6893 13.175 31.1851L17.0708 33.3809L32.5833 24.5268L28.5458 22.3309Z" fill="url(#paint0_linear_2994_3186)" stroke="url(#paint1_linear_2994_3186)" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17 23.0101L13.5 20.5101C13.5 20.5101 14.5 20.0101 13 19.0101C11.5 18.0101 9.98752 19.0101 10 19.3101L5.5 16.6714L1.55835 18.9601L9.98752 23.7768C10.8375 23.2809 12.325 23.2809 13.175 23.7768C14.0958 24.2726 14.0958 25.1226 13.175 25.6184L17.0708 27.8143L32.5833 18.8893L28.5278 16.6714L17 23.0101Z" fill="#007CFC" stroke="#007CFC" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2666 12.335L15.725 14.3892L7.08331 9.43088L10.6958 7.37671L19.2666 12.335Z" fill="#007CFC" stroke="#007CFC" stroke-width="0.4479" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.225 9.43096L20.6125 11.556L12.0417 6.59762L15.5833 4.54346L24.225 9.43096Z" fill="#007CFC" stroke="#007CFC" stroke-width="0.4479" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32.5 10.8101V14.0517L17.0708 22.8892L13.5 20.5517C14.4208 20.0559 14.0958 19.3475 13.175 18.8517C12.325 18.3559 10.8375 18.3559 9.98752 18.8517L1.5 14.0517V10.8101" stroke="#393D45" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.5458 8.22669C27.6958 8.72253 26.2083 8.72253 25.3583 8.22669C24.4375 7.73086 24.4375 6.88086 25.3583 6.38503L17 1.56836L1.5 10.51L9.98752 15.31C10.8375 14.8142 12.325 14.8142 13.175 15.31C14.0958 15.8059 14.4208 16.5142 13.5 17.01L17.0708 19.3475L32.5 10.51L28.5458 8.22669Z" stroke="#393D45" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    <defs>
+        <linearGradient id="paint0_linear_2994_3186" x1="1.53009" y1="27.7729" x2="32.5832" y2="27.7729" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B2CFFD"></stop>
+            <stop offset="1" stop-color="#D3E3FE"></stop>
+        </linearGradient>
+        <linearGradient id="paint1_linear_2994_3186" x1="1.17592" y1="27.7729" x2="32.9374" y2="27.7729" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B2CFFD"></stop>
+            <stop offset="1" stop-color="#D3E3FE"></stop>
+        </linearGradient>
+    </defs>
+</svg>

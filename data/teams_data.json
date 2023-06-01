@@ -1,0 +1,92 @@
+{
+    "teams": [
+        {
+            "name": "John Doe",
+            "role": "Front End Developer",
+            "img": "assets/images/teams/team-1.jpg",
+            "socials": [
+                "linkedIn_url",
+                "twitter_url",
+                "github_url",
+                "facebook_url"
+            ]
+        },
+        {
+            "name": "John Doe",
+            "role": "Front End Developer",
+            "img": "assets/images/teams/team-2.jpg",
+            "socials": [
+                "linkedIn_url",
+                "twitter_url",
+                "github_url",
+                "facebook_url"
+            ]
+        },
+        {
+            "name": "John Doe",
+            "role": "Front End Developer",
+            "img": "assets/images/teams/team-3.jpg",
+            "socials": [
+                "linkedIn_url",
+                "twitter_url",
+                "github_url",
+                "facebook_url"
+            ]
+        },
+        {
+            "name": "John Doe",
+            "role": "Front End Developer",
+            "img": "assets/images/teams/team-4.jpg",
+            "socials": [
+                "linkedIn_url",
+                "twitter_url",
+                "github_url",
+                "facebook_url"
+            ]
+        },
+        {
+            "name": "John Doe",
+            "role": "Front End Developer",
+            "img": "assets/images/teams/team-5.jpg",
+            "socials": [
+                "linkedIn_url",
+                "twitter_url",
+                "github_url",
+                "facebook_url"
+            ]
+        },
+        {
+            "name": "John Doe",
+            "role": "Front End Developer",
+            "img": "assets/images/teams/team-6.jpg",
+            "socials": [
+                "linkedIn_url",
+                "twitter_url",
+                "github_url",
+                "facebook_url"
+            ]
+        },
+        {
+            "name": "John Doe",
+            "role": "Front End Developer",
+            "img": "assets/images/teams/team-3.jpg",
+            "socials": [
+                "linkedIn_url",
+                "twitter_url",
+                "github_url",
+                "facebook_url"
+            ]
+        },
+        {
+            "name": "John Doe",
+            "role": "Front End Developer",
+            "img": "assets/images/teams/team-4.jpg",
+            "socials": [
+                "linkedIn_url",
+                "twitter_url",
+                "github_url",
+                "facebook_url"
+            ]
+        }
+    ]
+}

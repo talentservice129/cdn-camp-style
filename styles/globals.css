@@ -1,0 +1,343 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@screen sm {
+  .flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@screen md {
+  .flex-wrap-reverse {
+    flex-wrap: nowrap;
+  }
+}
+
+
+
+@font-face {
+  font-family: Poppins;
+  src: url("/assets/font/Poppins.ttf");
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url("/assets/font/Poppin-Bold.ttf");
+}
+
+
+body{
+  font-family: Poppins;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  height: 100vh;
+  cursor: none !important;
+}
+
+@layer components {
+  body {
+    /* @apply bg-gray-50 text-gray-900 dark:bg-red-200 dark:text-gray-100;
+    @apply min-h-screen; */
+  }
+
+  ::selection {
+    /* @apply text-white bg-indigo-500; */
+  }
+
+
+  .btn{
+    /* @apply inline-block px-5 py-3 rounded-lg hover:bg-indigo-600 transition duration-300 shadow-lg bg-indigo-500 text-white capitalize tracking-wider font-semibold text-sm sm:text-xl focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50 whitespace-nowrap; */
+  }
+}
+
+.veryBoldText{
+  font-family: PoppinsBold;
+}
+
+.boldText{
+  font-weight: 900 !important;
+}
+
+.overflowHidden{
+  overflow: hidden;
+}
+
+.main-navbar-box{
+  cursor: pointer;
+}
+
+.main-navbar-box #right #info-box-icon{
+  visibility: hidden;
+}
+
+.main-navbar-box:hover #right  p{
+  color: #4898f0;
+}
+
+.main-navbar-box:hover #right #info-box-icon{
+  visibility: visible;
+  color: #4898f0;
+}
+
+#sidebar-box{
+  overflow-y: scroll;
+}
+
+/* Add a smooth transition to dropdown components */
+.dropdown-section{
+  transition: .3s ease;
+}
+
+.sidebar-section{
+  transition: .1s ease;
+}
+
+.test{
+  color: rgba(1, 65, 226, 0.6);
+}
+
+/* SCROLL BAR STUFF */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5452d373;
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5552d3;
+}
+
+.test{
+  color: rgb(85, 82, 211, .5);
+}
+
+/* Contact Us Page Style */
+#contact-us-card{
+  transition: 1s ease;
+  transform: scale(.9);
+}
+
+#contact-us-card:hover{
+  box-shadow: 0px 15px 20px #1b1e2395;
+}
+
+#contact-us-card:hover > #contact-us-card-icon{
+  background: #5552d3;
+  color: #fff;
+}
+
+/* Swiper Customization */
+.swiper-custom .swiper-button-prev,
+.swiper-custom .swiper-button-next {
+  opacity: 0;
+  visibility: hidden;
+  @apply w-10 h-10 after:text-sm leading-10 md:w-20 md:h-20 md:after:text-2xl md:after:leading-[80px] transition-all rounded-md shadow-sm text-center inline-block text-dark-100 bg-white-100 hover:bg-dark-100 hover:text-white-100
+}
+.swiper-custom:hover .swiper-button-prev,
+.swiper-custom:hover .swiper-button-next {
+  opacity: 1;
+  visibility: visible;
+}
+
+.swiper-custom .swiper-button-prev:after {
+  content: 'prev'
+}
+.swiper-custom .swiper-button-next:after {
+  content: 'next'
+}
+.swiper-custom .swiper-button-prev {
+  @apply md:left-10 left-5
+}
+.swiper-custom .swiper-button-next {
+  @apply md:right-10 right-5
+}
+.swiper-equal-height .swiper-slide {
+  @apply self-stretch
+}
+.swiper-custom.swiper-horizontal > .swiper-pagination-bullets {
+  @apply bottom-5
+}
+.swiper-custom .swiper-pagination-bullet {
+  @apply bg-transparent border-2 border-white-100 h-5 w-5 opacity-100
+}
+.swiper-custom .swiper-pagination-bullet.swiper-pagination-bullet-active:after {
+  @apply content-[""] bg-white-100 rounded-full block h-2 w-2 translate-x-1/2 translate-y-1/2;
+}
+/* Planet Style */
+.planet canvas {
+	position: absolute;
+	left: 0;
+	bottom: -200px;
+  width: auto !important;
+	height: 800px !important;
+}
+/* Review Animation */
+@keyframes reviews {
+  from {
+    transform: translateY(0%)
+  }
+  to {
+    transform : translateY(-50%)
+  }
+}
+
+
+/* CUSTOM CURSOR STYLE */
+/* ----- DO NOT TOUCH ------ */
+* {
+  cursor: none;
+}
+
+a:hover > .cursor-dot-outline{
+  transform: scale(.5);
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index:100;
+  background-color: rgb(85, 82, 211, .2);
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  z-index:200;
+  background-color: #fff;
+  opacity: 50%;
+}
+
+.cursor-dot-outline {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #5552d3;
+}
+
+
+/* GAME HOSTING PAGE*/
+#game-hosting-text{
+  font-family: PoppinsBold;
+}
+
+#game-hosting-cards #card-game-details{
+  transition: .2s ease;
+}
+
+#game-hosting-cards:hover #card-game-details{
+  transition: .2s ease;
+  top: 8rem;
+}
+
+/* FOOTER BANNER STYLES */
+#footer-banner-background{
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+#footer-banner-background::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 450px;
+  height: 350px;
+  background: rgba(255, 255, 255, .2);
+  border-radius: 0% 100% 0px 0px;
+  /* opacity: .9; */
+}
+
+#footer-banner-background::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 350px;
+  background: rgba(255,255, 255, 0.1);
+  border-radius: 0% 100% 0px 0px;
+}
+
+
+/* ABOUT PAGE */
+#team-socials{
+  position: absolute;
+  right: -50px;
+  top: 10px;
+  transition: all .2s ease;
+}
+
+#team-socials:hover{
+  right: 10px;
+}
+
+#teams-img:hover + #team-socials{
+  right: 10px;
+  transition: all .2s ease;
+}
+
+#teams-img:hover{
+  transform: scale(1.1);
+  transition:.2s ease-in-out;
+}
+
+#subscribe-cont::before{
+  content:"";
+  position: absolute;
+  right: 2rem;
+  top: -9rem;
+  width: 350px;
+  height: 250px;
+  background: #ffb400;
+  border-radius: 50%;
+  display: none;
+
+  @apply sm:block;
+  @apply md:block;
+  @apply lg:block;
+}
+
+#subscribe-cont::after{
+  content:"";
+  position: absolute;
+  left: 2rem;
+  bottom: -10rem;
+  width: 350px;
+  height: 250px;
+  background: rgba(1, 65, 226, 0.2);
+  border-radius: 50%;
+  @apply sm:block;
+  @apply md:block;
+  @apply lg:block;
+}
+
+/*
+Checbox
+*/
+.form-check-input:checked[type=checkbox] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e")
+}
+
+/* Range Slider */
+.range-slider .range-slider__thumb {
+  @apply dark:bg-white-100
+}

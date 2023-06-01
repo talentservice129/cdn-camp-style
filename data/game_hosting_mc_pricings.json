@@ -1,0 +1,94 @@
+{
+    "pricings": [
+        {
+            "name": "Stone",
+            "slots": 12,
+            "standard": 3,
+            "premium": 6,
+            "extreme": 12,
+            "ram": 1024,
+            "img": "/assets/images/games/mc/stone.png"
+        },
+        {
+            "name": "Coal",
+            "slots": 24,
+            "standard": 6,
+            "premium": 12,
+            "extreme": 24,
+            "ram": 2048,
+            "img": "/assets/images/games/mc/coal.png"
+        },
+        {
+            "name": "Iron",
+            "slots": 36,
+            "standard": 9,
+            "premium": 18,
+            "extreme": 36,
+            "ram": 3072,
+            "img": "/assets/images/games/mc/iron.png"
+        },
+        {
+            "name": "Gold",
+            "slots": 48,
+            "standard": 12,
+            "premium": 24,
+            "extreme": 48,
+            "ram": 4096,
+            "img": "/assets/images/games/mc/gold.png"
+        },
+        {
+            "name": "Lapis",
+            "slots": 60,
+            "standard": 15,
+            "premium": 30,
+            "extreme": 60,
+            "ram": 5120,
+            "img": "/assets/images/games/mc/lapis.png"
+        },
+        {
+            "name": "RedStone",
+            "slots": 72,
+            "standard": 18,
+            "premium": 36,
+            "extreme": 72,
+            "ram": 6144,
+            "img": "/assets/images/games/mc/redstone.png"
+        },
+        {
+            "name": "Diamond",
+            "slots": 96,
+            "standard": 24,
+            "premium": 48,
+            "extreme": 96,
+            "ram": 8192,
+            "img": "/assets/images/games/mc/diamond.png"
+        },
+        {
+            "name": "Emerald",
+            "slots": 144,
+            "standard": 36,
+            "premium": 72,
+            "extreme": 144,
+            "ram": 12288,
+            "img": "/assets/images/games/mc/emerald.png"
+        },
+        {
+            "name": "Amethyst",
+            "slots": null,
+            "standard": 48,
+            "premium": 96,
+            "extreme": 192,
+            "ram": 16384,
+            "img": "/assets/images/games/mc/amethyst.png"
+        },
+        {
+            "name": "Beacon",
+            "slots": null,
+            "standard": 96,
+            "premium": 192,
+            "extreme": 384,
+            "ram": 32768,
+            "img": "/assets/images/games/mc/beacon1.png"
+        }
+    ]
+}

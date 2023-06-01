@@ -1,0 +1,34 @@
+{
+    "features": [
+        {
+            "heading": "Super Fast SSD",
+            "subHeading": "We run all of our game servers on NVMe SSD's so our customers can get the best performance alongside fast boot up times.",
+            "img": "/assets/images/features/ssd.svg"
+        },
+        {
+            "heading": "DDoS Protection",
+            "subHeading": "All game servers from OpticEngine Hosting has Layer 3 and Layer 7 DDoS Protection to keep you online during major attacks.",
+            "img": "/assets/images/features/protection.svg"
+        },
+        {
+            "heading": "Premium Processors",
+            "subHeading": "From AMD Ryzen 9 3900X's to Intel Core i9-9900K's we make sure our servers have the best hardware to price ratio.",
+            "img": "/assets/images/features/power.svg"
+        },
+        {
+            "heading": "Multiple Locations",
+            "subHeading": "With multiple locations from London, Germany, Miami, Florida and Los Angles. We make sure to keep the US & EU Covered.",
+            "img": "/assets/images/features/globe.svg"
+        },
+        {
+            "heading": "Fast Support",
+            "subHeading": "Providing clients with 24/7 support through our Discord Server and billing panel to keep downtime to a minimum.",
+            "img": "/assets/images/features/support.svg"
+        },
+        {
+            "heading": "Fast Server Setup",
+            "subHeading": "Setup times range from Instant to 5 minutes to ensure our customers can get the product they paid for as quickly as possible.",
+            "img": "/assets/images/features/clock.svg"
+        }
+    ]
+}
