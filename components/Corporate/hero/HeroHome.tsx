@@ -20,9 +20,9 @@ function HeroDedicatedSlide() {
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
             <div className="container xl:max-w-[1200px] mx-auto">
               <div className="text-center">
-                <h3 className="text-6xl mb-0">Protect your</h3>
+                <h3 className="text-6xl text-white-100 mb-0">Protect your</h3>
                 <h3 className="text-7xl font-bold mb-4 text-blue-300">online presence</h3>
-                <p className="text-xl mb-8">Really fast. Immensely secure. Bespoke customer accommodation. This is RivageCDN!</p>
+                <p className="text-xl text-white-100 mb-8">Really fast. Immensely secure. Bespoke customer accommodation. This is RivageCDN!</p>
                 <div>
                   <button className="inline-block px-4 py-2 rounded-md scale-[1] hover:scale-[1.1] transition-all bg-blue-300 text-white-100 mr-3 mb-3">
                     Join Now
